@@ -23,16 +23,26 @@
             <form id="test-ajax-upload-form" method="post" enctype="multipart/form-data">
                 <div class="form-group">
                     <label for="name">NAME</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter name" required />
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter name"  />
                 </div>
                 <div class="form-group">
                     <label for="email">EMAIL</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required />
+                    <input type="text" class="form-control" id="email" name="email" placeholder="Enter email"  />
                 </div>
 
-                <input id="uploadImage" type="file" accept="image/*" name="image" />
-                <input class="btn btn-success" type="submit" value="Upload">
+                <div>
+                    <b>Image-1</b>
+                    <input id="uploadImage-1" type="file" accept="image/*" name="image-1" />
+                </div>
+                <div>
+                    <b>Image-2</b>
+                    <input id="uploadImage-2" type="file" accept="image/*" name="image-2" />
+                </div>
+
+                <input class="btn btn-success" type="submit" value="Submit">
             </form>
+
+
             <div id="err"></div>
 
 
